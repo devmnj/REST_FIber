@@ -1,15 +1,16 @@
 package main
 
-import  
-("github.com/gofiber/fiber/v2"
-"example/REST_API/product"
-"example/REST_API/database"
-"fmt"
-"log"
-"gorm.io/gorm"
-"gorm.io/driver/sqlite"
-)
+import (
+	"example/REST_API/database"
+	"example/REST_API/product"
+	"fmt"
+	"log"
 
+	"github.com/gofiber/fiber/v2"
+	"gorm.io/driver/sqlite"
+	"gorm.io/gorm"
+)
+ 
 func index(c *fiber.Ctx) error {
    return  c.SendString("<h1>This is a Fiber-GO API</h1>")  
 }

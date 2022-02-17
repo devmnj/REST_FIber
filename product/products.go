@@ -1,10 +1,12 @@
 package product
 
-import ( 
-"github.com/gofiber/fiber/v2"
-"example/REST_API/database"
-// "gorm.io/driver/sqlite"
-"gorm.io/gorm"
+import (
+	"github.com/manojap/REST_API/database"
+
+	"github.com/gofiber/fiber/v2"
+
+	// "gorm.io/driver/sqlite"
+	"gorm.io/gorm"
 )
 
 type Product struct{

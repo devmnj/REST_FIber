@@ -1,10 +1,11 @@
 package main
 
 import (
-	"example/REST_API/database"
-	"example/REST_API/product"
 	"fmt"
 	"log"
+
+	"github.com/manojap/REST_FIber/database"
+	"github.com/manojap/REST_FIber/product"
 
 	"github.com/gofiber/fiber/v2"
 	"gorm.io/driver/sqlite"

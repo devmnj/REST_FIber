@@ -1,7 +1,7 @@
 package product
 
 import (
-	"github.com/manojap/REST_API/database"
+	"github.com/manojap/REST_FIber/database"
 
 	"github.com/gofiber/fiber/v2"
 
